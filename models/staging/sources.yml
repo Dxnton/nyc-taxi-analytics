@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: instacart_raw
+    project: instacart-analytics-497523
+    dataset: instacart_raw
+    tables:
+      - name: orders
+      - name: products
+      - name: aisles
+      - name: departments
+      - name: order_products_prior
+      - name: order_products_train
